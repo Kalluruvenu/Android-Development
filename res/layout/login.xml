@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#2ca6e9"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <EditText
+        android:id="@+id/loginuserNameEtId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPersonName" 
+        android:hint="Enter Username"
+             android:background="@drawable/roundedbuttons"
+             android:layout_marginBottom="5dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/loginpasswordEtId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword" 
+        android:hint="Enter Password"
+             android:background="@drawable/roundedbuttons"
+             android:layout_marginBottom="5dp"/>
+    
+      <Button
+        android:id="@+id/loginBtId"
+         android:layout_width="fill_parent"
+            android:layout_height="50dp"
+        android:background="@drawable/roundedbuttons"
+        android:text="login" />
+</LinearLayout>
+  
+
+</LinearLayout>

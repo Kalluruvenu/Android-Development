@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="true"
+    android:orientation="horizontal" 
+        android:background="#2ca6e9">
+    
+    <ScrollView android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+
+    
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+
+    <EditText
+        android:id="@+id/firstnameEtid"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:background="@drawable/roundedbuttons" 
+        android:layout_marginBottom="5dp"
+       >
+
+
+    </EditText>
+    
+    <EditText
+        android:id="@+id/lastnameEtid"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="Last Name"
+        android:inputType="textPersonName" 
+        android:background="@drawable/roundedbuttons">
+
+    </EditText>
+</LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+
+    <EditText
+        android:id="@+id/emailEtid"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress" 
+        android:background="@drawable/roundedbuttons"
+         android:layout_marginBottom="5dp">
+
+    </EditText>
+    
+    <EditText
+        android:id="@+id/usernameEtid"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="User Name"
+        android:inputType="textPersonName" 
+        android:background="@drawable/roundedbuttons">
+
+    </EditText>
+    <EditText
+        android:id="@+id/phoneNumberEtId"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="Phone Number"
+        android:inputType="number" 
+        android:background="@drawable/roundedbuttons">
+
+    </EditText>
+</LinearLayout>
+
+     <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+
+                <EditText
+                    android:id="@+id/passwordEtid"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:inputType="textPassword" 
+                    android:hint="Password"
+                     android:background="@drawable/roundedbuttons"
+                      android:layout_marginBottom="5dp"/>
+                  <EditText
+                    android:id="@+id/cpasswordEtid"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:inputType="textPassword" 
+                    android:hint="Confirm Password"
+                    android:background="@drawable/roundedbuttons"/>
+                  
+
+     </LinearLayout>
+     <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+                  <EditText
+                    android:id="@+id/zipEtId"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:inputType="textPassword" 
+                    android:hint="Zip Code"
+                    android:background="@drawable/roundedbuttons"/>
+                  
+
+     </LinearLayout>
+     
+     <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+      <Button
+            android:id="@+id/signupBtid"
+            android:background="@drawable/roundedbuttons"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="Sign Up!" 
+            />
+      </LinearLayout>
+  
+     </LinearLayout>
+</ScrollView>
+</LinearLayout>
